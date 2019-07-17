@@ -1,0 +1,12 @@
+{
+	"name": "Azuredatadwload",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=server2020.database.windows.net;initial catalog=vamseedwh;user id=vamsee",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlZBTVNFRUFERl9hYTAxMWQzZS03ZDc2LTQwNWUtOTFkYy03MjBhYTM4ODI0NTkiDQp9"
+		}
+	}
+}
