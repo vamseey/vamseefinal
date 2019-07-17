@@ -1,0 +1,30 @@
+{
+	"name": "Azurecsvload",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azuredatadwload",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "SNO",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SNAME",
+				"type": "varchar"
+			},
+			{
+				"name": "SALARY",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[EMPLOYEE]"
+		}
+	}
+}
